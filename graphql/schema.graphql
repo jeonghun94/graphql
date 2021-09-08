@@ -9,10 +9,4 @@ type Movie {
 
 type Query {
   movies: [Movie]!
-  getMoiveById(id: Int!): Movie
-}
-
-type Mutation {
-  addMovie(name: String!, score: Int!): Movie!
-  deleteMovie(id: Int!): Boolean!
 }
